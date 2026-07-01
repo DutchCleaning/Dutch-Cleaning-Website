@@ -3,163 +3,221 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dutch Cleaning & Maintenance Service - Professional Commercial Cleaning Services">
-    <title>Dutch Cleaning & Maintenance Service | Professional Janitorial Services</title>
+    <meta name="description" content="Dutch Cleaning & Maintenance - Professional Janitorial and Commercial Cleaning Services">
+    <title>Dutch Cleaning & Maintenance | Professional Cleaning Services</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-logo">
-                <img src="logo.png" alt="Dutch Cleaning Logo" class="logo-img">
-                <span>Dutch Cleaning</span>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>Dutch Cleaning & Maintenance</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#locations">Service Areas</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="header-cta">
+                    <a href="tel:562-927-5873" class="phone-link">📞 562-927-5873</a>
+                    <a href="#contact" class="btn btn-primary">Get Pricing</a>
+                </div>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#why-us">Why Us</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="nav-cta">
-                <a href="tel:562-927-5873" class="phone-btn">📞 562-927-5873</a>
-                <a href="#contact" class="btn btn-primary">Get a Quote</a>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <section id="home" class="hero">
+    <!-- Hero Banner -->
+    <section class="hero-banner">
         <div class="hero-content">
-            <h1>Professional Cleaning & Maintenance Services You Can Trust</h1>
-            <p>Keep your facility spotless and safe with Dutch Cleaning & Maintenance Service's comprehensive janitorial solutions</p>
+            <h1>Professional Cleaning Services You Can Count On</h1>
+            <p>Award-winning commercial cleaning & janitorial services for offices, industries, healthcare, and more</p>
             <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary btn-large">Request a Quote</a>
-                <a href="#services" class="btn btn-secondary btn-large">Explore Services</a>
+                <a href="#contact" class="btn btn-primary btn-large">Request Free Estimate</a>
+                <a href="#services" class="btn btn-secondary btn-large">View Services</a>
             </div>
-        </div>
-        <div class="hero-image">
-            <div class="image-placeholder">
-                <i class="fas fa-building"></i>
+            <div class="trust-badges">
+                <div class="badge">✓ Fully Insured & Bonded</div>
+                <div class="badge">✓ ISSA Certified</div>
+                <div class="badge">✓ 24/7 Support</div>
             </div>
         </div>
     </section>
 
+    <!-- Quick CTA Section -->
+    <section class="quick-cta">
+        <div class="container">
+            <div class="cta-box">
+                <h3>Ready for a Cleaner Space?</h3>
+                <p>Get your free quote today. Our cleaning experts are standing by.</p>
+                <a href="#contact" class="btn btn-primary">Schedule Your Free Walkthrough</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2>Our Services</h2>
-            <p class="section-subtitle">Comprehensive cleaning solutions tailored to your facility</p>
+            <h2>Our Cleaning Services</h2>
+            <p class="section-intro">Comprehensive cleaning solutions for every business need</p>
+            
             <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-building"></i></div>
-                    <h3>Office Cleaning</h3>
-                    <p>Daily office maintenance including desk cleaning, floor care, and restroom sanitation.</p>
+                <div class="service-item">
+                    <div class="service-header">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Office Cleaning</h3>
+                    </div>
+                    <p>Professional daily office maintenance including workspaces, conference rooms, restrooms, and common areas.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-industry"></i></div>
-                    <h3>Industrial Facilities</h3>
-                    <p>Specialized cleaning for warehouses, manufacturing plants, and industrial spaces.</p>
+
+                <div class="service-item">
+                    <div class="service-header">
+                        <i class="fas fa-industry"></i>
+                        <h3>Industrial Facilities</h3>
+                    </div>
+                    <p>Heavy-duty cleaning for warehouses, manufacturing plants, and industrial spaces with specialized equipment.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-hospital"></i></div>
-                    <h3>Medical/Healthcare</h3>
-                    <p>HIPAA-compliant, sanitized cleaning for hospitals and healthcare facilities.</p>
+
+                <div class="service-item">
+                    <div class="service-header">
+                        <i class="fas fa-hospital"></i>
+                        <h3>Medical & Healthcare</h3>
+                    </div>
+                    <p>HIPAA-compliant sanitized cleaning for hospitals, clinics, and healthcare facilities with strict protocols.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
-                    <h3>Educational Facilities</h3>
-                    <p>Comprehensive cleaning for schools and universities ensuring safe environments.</p>
+
+                <div class="service-item">
+                    <div class="service-header">
+                        <i class="fas fa-school"></i>
+                        <h3>Educational Facilities</h3>
+                    </div>
+                    <p>Safe and hygienic cleaning for schools and universities ensuring healthy learning environments.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-store"></i></div>
-                    <h3>Retail Spaces</h3>
-                    <p>Professional cleaning for retail locations including floors and customer areas.</p>
+
+                <div class="service-item">
+                    <div class="service-header">
+                        <i class="fas fa-shopping-cart"></i>
+                        <h3>Retail Cleaning</h3>
+                    </div>
+                    <p>Professional retail space cleaning for storefronts and shopping centers to enhance customer experience.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-broom"></i></div>
-                    <h3>Specialty Services</h3>
-                    <p>Carpet cleaning, window washing, floor waxing, and deep sanitization.</p>
+
+                <div class="service-item">
+                    <div class="service-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Specialty Services</h3>
+                    </div>
+                    <p>Carpet cleaning, window washing, floor waxing, deep sanitization, and custom cleaning solutions.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Why Choose Us -->
     <section id="why-us" class="why-us">
         <div class="container">
             <h2>Why Choose Dutch Cleaning & Maintenance?</h2>
-            <p class="section-subtitle">Industry-leading service with proven results</p>
+            
             <div class="features-grid">
                 <div class="feature">
-                    <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                    <div class="feature-number">1</div>
                     <h3>Fully Insured & Bonded</h3>
-                    <p>Complete coverage and protection for your facility.</p>
+                    <p>Complete protection and coverage for your facility and peace of mind</p>
                 </div>
+
                 <div class="feature">
-                    <div class="feature-icon"><i class="fas fa-leaf"></i></div>
-                    <h3>Eco-Friendly Solutions</h3>
-                    <p>Green cleaning products protecting facility and environment.</p>
+                    <div class="feature-number">2</div>
+                    <h3>Certified Professionals</h3>
+                    <p>ISSA certified and industry-trained cleaning experts</p>
                 </div>
+
                 <div class="feature">
-                    <div class="feature-icon"><i class="fas fa-certificate"></i></div>
-                    <h3>ISSA Certified</h3>
-                    <p>Industry-trained and certified professionals.</p>
+                    <div class="feature-number">3</div>
+                    <h3>Eco-Friendly Products</h3>
+                    <p>Green cleaning solutions safe for your facility and the environment</p>
                 </div>
+
                 <div class="feature">
-                    <div class="feature-icon"><i class="fas fa-headset"></i></div>
-                    <h3>24/7 Support</h3>
-                    <p>Round-the-clock customer service for urgent needs.</p>
+                    <div class="feature-number">4</div>
+                    <h3>24/7 Customer Support</h3>
+                    <p>Round-the-clock availability for emergencies and special requests</p>
                 </div>
+
                 <div class="feature">
-                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <div class="feature-number">5</div>
                     <h3>Dedicated Teams</h3>
-                    <p>Consistent, trained teams assigned to your facility.</p>
+                    <p>Consistent trained teams assigned to your account for personalized service</p>
                 </div>
+
                 <div class="feature">
-                    <div class="feature-icon"><i class="fas fa-star"></i></div>
+                    <div class="feature-number">6</div>
                     <h3>Flexible Scheduling</h3>
-                    <p>Customized cleaning schedules with your business hours.</p>
+                    <p>Customized cleaning schedules that fit your business operations</p>
                 </div>
-            </div>
-            <div class="stats">
-                <div class="stat"><h4>500+</h4><p>Active Clients</p></div>
-                <div class="stat"><h4>98%</h4><p>Client Satisfaction</p></div>
-                <div class="stat"><h4>15+</h4><p>Years Experience</p></div>
-                <div class="stat"><h4>24/7</h4><p>Available Service</p></div>
             </div>
         </div>
     </section>
 
-    <section id="testimonials" class="testimonials">
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-box">
+                <h3>500+</h3>
+                <p>Active Clients</p>
+            </div>
+            <div class="stat-box">
+                <h3>98%</h3>
+                <p>Client Satisfaction</p>
+            </div>
+            <div class="stat-box">
+                <h3>15+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-box">
+                <h3>24/7</h3>
+                <p>Support Available</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
         <div class="container">
             <h2>What Our Clients Say</h2>
-            <p class="section-subtitle">Real testimonials from satisfied customers</p>
+            <p class="section-intro">Real reviews from satisfied customers</p>
+            
             <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="stars">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                    </div>
-                    <p>"Dutch Cleaning has transformed our office. The attention to detail is exceptional!"</p>
-                    <div class="testimonial-author">
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"Dutch Cleaning transformed our office. The attention to detail and professionalism is unmatched. Highly recommended!"</p>
+                    <div class="author">
                         <strong>Jennifer Martinez</strong>
                         <span>Office Manager, TechCore Solutions</span>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <div class="stars">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                    </div>
-                    <p>"Reliable, professional, and always on time. We've been clients for 3 years!"</p>
-                    <div class="testimonial-author">
+
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"Reliable, professional, and always punctual. We've been using their services for 3+ years and wouldn't use anyone else."</p>
+                    <div class="author">
                         <strong>David Chen</strong>
                         <span>Facility Director, Metro Healthcare</span>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <div class="stars">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                    </div>
-                    <p>"Professional, courteous, and eco-friendly. Highly recommended!"</p>
-                    <div class="testimonial-author">
+
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"Exceptional service at competitive prices. Their eco-friendly approach aligns with our company values perfectly."</p>
+                    <div class="author">
                         <strong>Sarah Thompson</strong>
                         <span>Operations Manager, EcoRetail Inc.</span>
                     </div>
@@ -168,91 +226,125 @@
         </div>
     </section>
 
+    <!-- Service Areas -->
+    <section id="locations" class="locations">
+        <div class="container">
+            <h2>Service Areas</h2>
+            <p class="section-intro">We proudly serve the following regions</p>
+            <div class="area-list">
+                <div class="area-column">
+                    <h4>California</h4>
+                    <ul>
+                        <li>Long Beach</li>
+                        <li>Los Angeles</li>
+                        <li>Orange County</li>
+                        <li>San Diego</li>
+                    </ul>
+                </div>
+                <div class="area-column">
+                    <h4>Additional Areas</h4>
+                    <ul>
+                        <li>Surrounding Counties</li>
+                        <li>Metro Areas</li>
+                        <li>Commercial Zones</li>
+                        <li>Call for Availability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Get Your Free Quote Today</h2>
-            <p class="section-subtitle">Contact us for a customized cleaning solution</p>
-            <div class="contact-wrapper">
+            <h2>Get Your Free Estimate</h2>
+            <p class="section-intro">Contact us today for a customized cleaning quote</p>
+            
+            <div class="contact-grid">
                 <div class="contact-info">
                     <h3>Contact Information</h3>
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p><a href="tel:562-927-5873">562-927-5873</a></p>
-                        </div>
+                    
+                    <div class="info-block">
+                        <h4>📞 Phone</h4>
+                        <p><a href="tel:562-927-5873">562-927-5873</a></p>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p><a href="mailto:info@dutchcleaning.com">info@dutchcleaning.com</a></p>
-                        </div>
+
+                    <div class="info-block">
+                        <h4>✉️ Email</h4>
+                        <p><a href="mailto:info@dutchcleaning.com">info@dutchcleaning.com</a></p>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Address</h4>
-                            <p>123 Main Street, Suite 100<br>Your City, State</p>
-                        </div>
+
+                    <div class="info-block">
+                        <h4>📍 Address</h4>
+                        <p>Long Beach, California<br>Serving Greater LA Area</p>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-clock"></i>
-                        <div>
-                            <h4>Hours</h4>
-                            <p>Monday - Friday: 8 AM - 6 PM<br>24/7 Emergency Support</p>
-                        </div>
+
+                    <div class="info-block">
+                        <h4>🕐 Hours</h4>
+                        <p>Monday - Friday: 8 AM - 6 PM<br>Saturday: 9 AM - 2 PM<br>24/7 Emergency Support</p>
                     </div>
                 </div>
+
                 <form class="contact-form">
+                    <h3>Request Your Free Estimate</h3>
+                    
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
+                        <input type="text" placeholder="Your Name *" required>
                     </div>
+
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
+                        <input type="email" placeholder="Your Email *" required>
                     </div>
+
                     <div class="form-group">
-                        <input type="tel" placeholder="Phone Number" required>
+                        <input type="tel" placeholder="Phone Number *" required>
                     </div>
+
                     <div class="form-group">
-                        <input type="text" placeholder="Company Name" required>
+                        <input type="text" placeholder="Company Name *" required>
                     </div>
+
                     <div class="form-group">
                         <select required>
-                            <option value="">Select Service Type</option>
+                            <option value="">Select Service Type *</option>
                             <option value="office">Office Cleaning</option>
                             <option value="industrial">Industrial Facilities</option>
-                            <option value="healthcare">Medical/Healthcare</option>
+                            <option value="healthcare">Medical & Healthcare</option>
                             <option value="education">Educational Facilities</option>
-                            <option value="retail">Retail Spaces</option>
+                            <option value="retail">Retail Cleaning</option>
+                            <option value="specialty">Specialty Services</option>
+                            <option value="other">Other</option>
                         </select>
                     </div>
+
                     <div class="form-group">
-                        <textarea placeholder="Tell us about your facility..." rows="5" required></textarea>
+                        <textarea placeholder="Describe your facility and cleaning needs..." rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-large">Request Quote</button>
+
+                    <button type="submit" class="btn btn-primary btn-large">Send Request</button>
+                    <p class="form-note">We'll contact you within 24 hours with your free quote</p>
                 </form>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
+            <div class="footer-grid">
+                <div class="footer-col">
                     <h4>Dutch Cleaning & Maintenance</h4>
-                    <p>Your trusted partner in professional janitorial services.</p>
+                    <p>Professional janitorial and cleaning services for commercial and industrial clients.</p>
                 </div>
-                <div class="footer-section">
+                <div class="footer-col">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#home">Home</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#why-us">Why Us</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
+                <div class="footer-col">
                     <h4>Services</h4>
                     <ul>
                         <li><a href="#services">Office Cleaning</a></li>
@@ -260,9 +352,17 @@
                         <li><a href="#services">Healthcare Cleaning</a></li>
                     </ul>
                 </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Dutch Cleaning & Maintenance Service. All rights reserved. | 562-927-5873</p>
+                <p>&copy; 2024 Dutch Cleaning & Maintenance Service. All rights reserved.</p>
+                <p>Fully Insured & Bonded | ISSA Certified | 562-927-5873</p>
             </div>
         </div>
     </footer>
