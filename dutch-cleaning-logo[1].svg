@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-labelledby="title desc">
+  <title id="title">Dutch Cleaning and Maintenance Inc.</title>
+  <desc id="desc">Blue and orange Dutch Cleaning logo with sparkle mark</desc>
+  <rect width="320" height="120" rx="18" fill="#ffffff"/>
+  <circle cx="62" cy="60" r="38" fill="#0052CC"/>
+  <path d="M43 62c9 19 38 19 47-1" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round"/>
+  <path d="M62 27c7 13 14 24 14 34 0 10-6 17-14 17s-14-7-14-17c0-10 7-21 14-34z" fill="#ffffff" opacity=".95"/>
+  <path d="M104 30l6 13 14 5-14 5-6 13-6-13-14-5 14-5 6-13z" fill="#FF6600"/>
+  <text x="132" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#1f2937">Dutch Cleaning</text>
+  <text x="133" y="79" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0052CC">&amp; Maintenance Inc.</text>
+  <rect x="132" y="89" width="132" height="5" rx="2.5" fill="#FF6600"/>
+</svg>
