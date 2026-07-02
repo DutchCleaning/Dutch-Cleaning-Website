@@ -41,7 +41,7 @@ function showSuccessMessage() {
     
     setTimeout(() => {
         message.remove();
-    }, 5000);
+    }, 3000);
 }
 
 // Navbar scroll effect
